@@ -1,0 +1,28 @@
+﻿@using MonPortfolio.Models;
+@model List<technologyDetails>
+
+@{
+    Layout = "_Layout";
+}
+
+
+
+
+@foreach (var item in Model)
+{
+    <div class="row">
+        <div class="col">
+            <img src="~/images/@(item.FileName + ".png")" alt="@item.Description" class="img-fluid" />
+            <p> Technology Description : @item.Description </p>
+            <p> Career Oportunity : @item.CareerOportunity </p>
+            <p> Production Year : @item.ProductionYear </p>
+        </div>
+    </div>
+
+}
+
+
+
+
+
+

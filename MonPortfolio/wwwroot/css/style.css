@@ -1,0 +1,43 @@
+﻿.sm
+.md
+.lg
+.xl 
+{
+    border: 1px solid black;
+}
+
+body 
+{
+    background-color: palevioletred;
+}
+
+.technology 
+{
+    background-color: red;
+}
+
+header 
+{
+    background-color: green;
+    
+}
+
+a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    transition: 3s;
+    text-decoration: none;
+    background-color: orange;
+}
+
+img 
+{
+    width: 40px;
+}
+
+
