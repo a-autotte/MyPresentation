@@ -1,0 +1,34 @@
+﻿@model IEnumerable<MonPortfolio.Models.CapabilityModel>
+
+@{ 
+    Layout = "_Layout";
+}
+
+<h1> Bienvenue </h1>
+
+<p>
+    Mon nom est Alexis Autotte, je suis étudiant en technique informatique du cégep Édouard-Montpetit.
+    J'ai fini ma première année et je m'en vais en deuxième année de technique. Ceci est le portfolio personnel
+    avec les langages et les concepts que j'ai expérimenté dans mon cheminement collégial. Je suis créatif,
+    j'aime résoudre des problèmes complexes avec ma propre volonté et j'aime travailler en équipe.
+</p>
+
+<h2> Mes compétences </h2>
+<div class="row justify-content-center">
+    
+    <div class="col-sm-2 col-md-2">
+        @foreach (var skills in Model)
+        {
+            <a href="/Capability/AboutSkill/@skills.SkillId"><img src="@skills.UrlImageSource" alt="@skills.TechnologyName" class="img-fluid"/></a>
+        }
+    </div>
+</div>
+
+<h2> Mes projets </h2>
+
+
+
+
+
+
+

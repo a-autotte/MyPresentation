@@ -1,0 +1,14 @@
+﻿@model MonPortfolio.Models.CapabilityModel
+
+@{ 
+    Layout = "_Layout";
+}
+
+<div class="row justify-content-center">
+    <div class="col-sm-2 col-md-4">
+        <h1> @Model.TechnologyName </h1>
+        <img src="@Model.UrlImageSource" alt="@Model.TechnologyName" class="img-fluid" />
+    </div>
+    
+</div>
+<p class="description"> @Model.TechnologyDescription </p>

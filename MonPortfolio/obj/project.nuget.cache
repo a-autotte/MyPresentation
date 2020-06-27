@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dZ03G10tOgDSfo+Q5LecZ+L2ktVB3r8Gb07w2EHOxXi1SFVFetO5wsc8tKCj/Xzy2nCqJLVEJCI7gwzFsTryzg==",
+  "dgSpecHash": "bvwSUMLA7SaddsdN+Twq6YWFt79n0UPob137eZHmDrGh9rMK4mNHG5x+mQix7DwdDTklcJzpvm4+qxZj6quv5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\MonPortfolio\\MonPortfolio\\MonPortfolio.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\MyPresentation-master\\MonPortfolio\\MonPortfolio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.3\\microsoft.aspnetcore.mvc.razor.extensions.3.1.3.nupkg.sha512",

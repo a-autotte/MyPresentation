@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\MonPortfolio\\MonPortfolio\\MonPortfolio.csproj": {}
+    "C:\\Users\\PC\\Desktop\\MyPresentation-master\\MonPortfolio\\MonPortfolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\MonPortfolio\\MonPortfolio\\MonPortfolio.csproj": {
+    "C:\\Users\\PC\\Desktop\\MyPresentation-master\\MonPortfolio\\MonPortfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MonPortfolio\\MonPortfolio\\MonPortfolio.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MyPresentation-master\\MonPortfolio\\MonPortfolio.csproj",
         "projectName": "MonPortfolio",
-        "projectPath": "C:\\Users\\PC\\Desktop\\MonPortfolio\\MonPortfolio\\MonPortfolio.csproj",
+        "projectPath": "C:\\Users\\PC\\Desktop\\MyPresentation-master\\MonPortfolio\\MonPortfolio.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\MonPortfolio\\MonPortfolio\\obj\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\MyPresentation-master\\MonPortfolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

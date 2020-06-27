@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MonPortfolio.Models;
 
 namespace MonPortfolio
 {
@@ -17,6 +18,7 @@ namespace MonPortfolio
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().AddRazorRuntimeCompilation();
+            services.AddSingleton<Database>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,16 +39,14 @@ namespace MonPortfolio
             }
 
             app.UseRouting();
-
             app.UseEndpoints(endpoints =>
-            {
                 endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern:"{controller}/{action}/{id?}",
-                    defaults: new {controller = "Portfolio", action = "PresentationPage" }
-                    );
-                
-            });
+                        name: "default",
+                        pattern: "{controller}/{action}/{id?}",
+                        defaults: new { controller = "Capability", action = "PresentationPage" }
+                    )
+            );
+            
         }
     }
 }
